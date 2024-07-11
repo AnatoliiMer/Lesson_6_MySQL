@@ -31,12 +31,13 @@ DELIMITER ;
 
 SELECT ConvertSecondsToDHMS(123456);
 
-DELIMITER //
-
 
 /*2. Создайте процедуру которая выведит только чётные числа от 1 до 10 (от 1 до n).
 Пример: 2,4,6,8,10
 */
+
+
+DELIMITER //
 
 CREATE PROCEDURE PrintEvenNumbersUpToN(IN n INT)
 BEGIN
